@@ -1,0 +1,43 @@
+﻿@model Infraestructure.Entity.Models.UserEntity
+
+@{
+}
+<h1>Confirmar eliminación</h1>
+<h3>¿Está seguro que desea eliminiar este elemento?</h3>
+
+
+
+<div>
+    <h4>Usuarios</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Models => Models.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Models => Models.Name)
+        </dd>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Models => Models.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Models => Models.LastName)
+        </dd>
+    </dl>
+    <form asp-action="ConfirmDelete">
+        <input type="hidden" asp-for="IdUser" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-success">Back to List</a>
+    </form>
+</div>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVet", "MyVet\MyVet.csproj", "{AC0CE645-044D-41BF-84C1-216F2EBB17B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.App", "1.App", "{AAD1C25B-352F-4166-87F2-AD74ABBBA517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{B3793588-BA76-439B-8DDD-21DB3F792106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infraestructure", "3.Infraestructure", "{34FB4CFF-F662-4270-A49E-AA8FABA3E0F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVetDomain", "MyVetDomain\MyVetDomain.csproj", "{F7B0508E-F563-4AE5-B760-1AD0796F4BE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructure.Core", "Infraestructure.Core\Infraestructure.Core.csproj", "{C313ACEF-19CE-414C-851C-935B2C064B75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructure.Entity", "Infraestructure.Entity\Infraestructure.Entity.csproj", "{E45C8355-1072-49E5-9E89-A9FB33B9F05F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Helpers", "4.Helpers", "{4A6D472E-B8FE-41E4-9C82-25F9FC0753DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Utils", "Common.Utils\Common.Utils.csproj", "{6337AA88-9443-4EFA-B1B7-DACA2002E58D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0CE645-044D-41BF-84C1-216F2EBB17B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0CE645-044D-41BF-84C1-216F2EBB17B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0CE645-044D-41BF-84C1-216F2EBB17B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0CE645-044D-41BF-84C1-216F2EBB17B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B0508E-F563-4AE5-B760-1AD0796F4BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B0508E-F563-4AE5-B760-1AD0796F4BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B0508E-F563-4AE5-B760-1AD0796F4BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B0508E-F563-4AE5-B760-1AD0796F4BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C313ACEF-19CE-414C-851C-935B2C064B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C313ACEF-19CE-414C-851C-935B2C064B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C313ACEF-19CE-414C-851C-935B2C064B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C313ACEF-19CE-414C-851C-935B2C064B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45C8355-1072-49E5-9E89-A9FB33B9F05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45C8355-1072-49E5-9E89-A9FB33B9F05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45C8355-1072-49E5-9E89-A9FB33B9F05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45C8355-1072-49E5-9E89-A9FB33B9F05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6337AA88-9443-4EFA-B1B7-DACA2002E58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6337AA88-9443-4EFA-B1B7-DACA2002E58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6337AA88-9443-4EFA-B1B7-DACA2002E58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6337AA88-9443-4EFA-B1B7-DACA2002E58D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC0CE645-044D-41BF-84C1-216F2EBB17B0} = {AAD1C25B-352F-4166-87F2-AD74ABBBA517}
+		{F7B0508E-F563-4AE5-B760-1AD0796F4BE7} = {B3793588-BA76-439B-8DDD-21DB3F792106}
+		{C313ACEF-19CE-414C-851C-935B2C064B75} = {34FB4CFF-F662-4270-A49E-AA8FABA3E0F7}
+		{E45C8355-1072-49E5-9E89-A9FB33B9F05F} = {34FB4CFF-F662-4270-A49E-AA8FABA3E0F7}
+		{6337AA88-9443-4EFA-B1B7-DACA2002E58D} = {4A6D472E-B8FE-41E4-9C82-25F9FC0753DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57F3D815-08B9-47A9-923A-2D77444E73D9}
+	EndGlobalSection
+EndGlobal

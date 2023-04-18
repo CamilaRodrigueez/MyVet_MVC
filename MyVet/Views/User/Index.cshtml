@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Infraestructure.Entity.Models.UserEntity>
+@{
+      ViewData["Title"] = "Usuarios";
+}
+<div class="row">
+<div class="col-md-6">
+
+<h1>Listado de Usuarios </h1>
+</div>
+<div class="col-md-6">
+
+<p>
+    <a asp-action="Create" class="btn btn-primary float-right">Nuevo Usuario</a>
+</p>
+</div>
+</div>
+
+<div class="row">
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Email</th>
+                <th scope="col">Opciones</th>
+            </tr>
+
+        </thead>
+        <tbody>
+
+            @foreach (var user in Model)
+            {
+                <tr>
+
+
+                    <th> @user.Name</th>
+                    <th> @user.LastName</th>
+                    <th> @user.Email</th>
+                    <td>
+                       <a asp-action="Edit" asp-route-id="@user.IdUser" class="btn btn-warning"> Editar</a>
+                        <a asp-action="Delete" asp-route-id="@user.IdUser" class="btn btn-danger"> Eliminar</a>
+
+                    </td>
+                </tr>
+            }
+
+
+
+
+        </tbody>
+    </table>
+</div>
